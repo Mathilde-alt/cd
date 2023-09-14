@@ -20,6 +20,6 @@ jobs:
             tag_with_sha: true
         - name: SonarCloud Scan
           uses: Mathilde-alt/CD@master
-           env:
-             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
