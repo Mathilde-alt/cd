@@ -37,7 +37,6 @@ jobs:
         uses: actions/setup-node@v2
         with: 
           node-versions: '14'
-      - uses: actions/checkout@v2
       - name: Install NPM dependencies
         run: |
           npm install 
