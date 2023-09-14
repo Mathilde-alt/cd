@@ -34,5 +34,5 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - uses: sburris/dependency-check-action@master
-      with:
-        Project-Name: TestApp
+        with:
+          Project-Name: TestApp
